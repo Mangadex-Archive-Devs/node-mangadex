@@ -1,0 +1,47 @@
+[
+    {
+        "volume": "",
+        "chapter": "2",
+        "group_id": "3478"
+    },
+    {
+        "volume": "1",
+        "chapter": "1",
+        "group_id": "3043"
+    },
+    {
+        "volume": "1",
+        "chapter": "2",
+        "group_id": "3043"
+    },
+    {
+        "volume": "2",
+        "chapter": "6",
+        "group_id": "3043"
+    },
+    {
+        "volume": "1",
+        "chapter": "1",
+        "group_id": "3478"
+    },
+    {
+        "volume": "1",
+        "chapter": "",
+        "group_id": "3478"
+    },
+    {
+        "volume": "1",
+        "chapter": "1.1",
+        "group_id": "3478"
+    },
+    {
+        "volume": "1",
+        "chapter": "1.2",
+        "group_id": "3478"
+    },
+    {
+        "volume": "2",
+        "chapter": "1.1",
+        "group_id": "3478"
+    }
+]

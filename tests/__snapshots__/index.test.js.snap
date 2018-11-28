@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Endpoints getChapter() 1`] = `
+Object {
+  "chapter": "1",
+  "comments": null,
+  "group_id": 2,
+  "group_id_2": 0,
+  "group_id_3": 0,
+  "hash": "26eea9c2123d7cc63577de694f0b72d1",
+  "id": 45522,
+  "lang_code": "gb",
+  "lang_name": "English",
+  "long_strip": 0,
+  "manga_id": 6510,
+  "page_array": Array [
+    "x1.jpg",
+    "x2.jpg",
+    "x3.jpg",
+    "x4.jpg",
+    "x5.jpg",
+    "x6.jpg",
+    "x7.jpg",
+    "x8.jpg",
+    "x9.jpg",
+    "x10.jpg",
+    "x11.jpg",
+    "x12.jpg",
+    "x13.jpg",
+  ],
+  "server": Any<String>,
+  "status": "OK",
+  "timestamp": 1517858262,
+  "title": "Episode Minus 1",
+  "volume": "",
+}
+`;
+
+exports[`Endpoints getManga() 1`] = `
+Object {
+  "chapter": undefined,
+  "chapters": Array [
+    Object {
+      "chapter": "1",
+      "group_id": 2,
+      "group_id_2": 0,
+      "group_id_3": 0,
+      "group_name": "Unknown",
+      "group_name_2": null,
+      "group_name_3": null,
+      "id": 45522,
+      "lang_code": "gb",
+      "timestamp": 1517858262,
+      "title": "Episode Minus 1",
+      "volume": "",
+    },
+    Object {
+      "chapter": "2",
+      "group_id": 2,
+      "group_id_2": 0,
+      "group_id_3": 0,
+      "group_name": "Unknown",
+      "group_name_2": null,
+      "group_name_3": null,
+      "id": 45524,
+      "lang_code": "gb",
+      "timestamp": 1517858281,
+      "title": "Fractional Episode",
+      "volume": "",
+    },
+    Object {
+      "chapter": "3",
+      "group_id": 2,
+      "group_id_2": 0,
+      "group_id_3": 0,
+      "group_name": "Unknown",
+      "group_name_2": null,
+      "group_name_3": null,
+      "id": 45526,
+      "lang_code": "gb",
+      "timestamp": 1517858296,
+      "title": "Special Episode",
+      "volume": "",
+    },
+  ],
+  "manga": Object {
+    "artist": "Azuma Kiyohiko",
+    "author": "Azuma Kiyohiko",
+    "cover_url": "/images/manga/6510.jpg?1519173421",
+    "description": "Kiyohiko Azuma's Try! Try! Try! follows the adventures of a weird girl named Yotsuba whose bizarre antics baffle her friends and her father. The characters in this comic later went on to appear in the monthly Yotsubato! serial manga currently running in Dengeki Daioh magazine.",
+    "genres": Array [
+      5,
+      31,
+    ],
+    "lang_flag": "jp",
+    "lang_name": "Japanese",
+    "last_chapter": "0",
+    "status": 2,
+    "title": "Try! Try! Try!",
+  },
+  "status": "OK",
+}
+`;
+
+exports[`Internals sortChapters Just Works (tm) 1`] = `
+Array [
+  Object {
+    "chapter": "",
+    "group_id": "3478",
+    "volume": "1",
+  },
+  Object {
+    "chapter": "1",
+    "group_id": "3043",
+    "volume": "1",
+  },
+  Object {
+    "chapter": "1",
+    "group_id": "3478",
+    "volume": "1",
+  },
+  Object {
+    "chapter": "1.1",
+    "group_id": "3478",
+    "volume": "1",
+  },
+  Object {
+    "chapter": "1.2",
+    "group_id": "3478",
+    "volume": "1",
+  },
+  Object {
+    "chapter": "2",
+    "group_id": "3043",
+    "volume": "1",
+  },
+  Object {
+    "chapter": "2",
+    "group_id": "3478",
+    "volume": "",
+  },
+  Object {
+    "chapter": "1.1",
+    "group_id": "3478",
+    "volume": "2",
+  },
+  Object {
+    "chapter": "6",
+    "group_id": "3043",
+    "volume": "2",
+  },
+]
+`;
